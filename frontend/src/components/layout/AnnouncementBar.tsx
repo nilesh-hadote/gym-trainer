@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export const AnnouncementBar: React.FC = () => {
   return (
-    <div className="bg-gradient-to-r from-lime-500 via-lime-400 to-lime-500 text-slate-950 px-4 py-2 text-xs md:text-sm font-semibold tracking-wide flex items-center justify-center gap-2 shadow-md">
+    <div className="no-print bg-gradient-to-r from-lime-500 via-lime-400 to-lime-500 text-slate-950 px-4 py-2 text-xs md:text-sm font-semibold tracking-wide flex items-center justify-center gap-2 shadow-md">
       <Flame className="w-4 h-4 text-slate-950 animate-pulse" />
       <span>Transform Your Body With Nilesh Hadote — Personalized Online & In-Person Coaching</span>
       <Link

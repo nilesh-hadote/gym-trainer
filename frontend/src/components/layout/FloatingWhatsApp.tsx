@@ -10,7 +10,7 @@ export const FloatingWhatsApp: React.FC = () => {
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${defaultMessage}`;
 
   return (
-    <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end">
+    <div id="floating-whatsapp" className="no-print fixed bottom-6 right-6 z-50 flex flex-col items-end">
       {/* Pop-up Card */}
       {open && (
         <div className="mb-3 w-80 bg-slate-900 border border-slate-800 rounded-3xl p-5 shadow-2xl shadow-emerald-500/10 space-y-4 animate-in fade-in slide-in-from-bottom-4 duration-200">

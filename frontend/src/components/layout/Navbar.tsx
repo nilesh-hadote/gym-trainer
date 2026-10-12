@@ -27,6 +27,7 @@ export const Navbar: React.FC = () => {
     { name: 'About Nilesh', path: '/about-nilesh-hadote' },
     { name: 'Coaching', path: '/coaching-plans' },
     { name: 'Nutrition', path: '/diet-and-nutrition' },
+    { name: 'Calculator', path: '/calorie-calculator' },
     { name: 'Mentorship', path: '/one-to-one-mentorship' },
     { name: 'Transformations', path: '/success-stories' },
     { name: 'Resources', path: '/blog' },
@@ -35,7 +36,7 @@ export const Navbar: React.FC = () => {
 
   return (
     <header
-      className={`sticky top-0 z-50 transition-all duration-300 ${
+      className={`no-print sticky top-0 z-50 transition-all duration-300 ${
         scrolled ? 'bg-slate-950/90 backdrop-blur-md border-b border-white/10 shadow-xl py-3' : 'bg-slate-950/60 backdrop-blur-sm py-4'
       }`}
     >

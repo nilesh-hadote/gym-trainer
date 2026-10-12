@@ -346,6 +346,28 @@ export const HomePage: React.FC = () => {
             </Link>
           </div>
         </div>
+
+        {/* Interactive Calorie & Macro Calculator Callout */}
+        <div className="bg-gradient-to-r from-slate-900 via-lime-950/40 to-slate-900 border border-lime-400/30 rounded-3xl p-8 sm:p-10 flex flex-col lg:flex-row items-center justify-between gap-8 shadow-2xl">
+          <div className="space-y-3 max-w-2xl">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-lime-400/10 border border-lime-400/20 text-lime-400 text-xs font-bold uppercase tracking-wider">
+              <span>Free Interactive Fitness Tool</span>
+            </div>
+            <h3 className="text-2xl sm:text-3xl font-black text-white uppercase">
+              Calculate Your Daily <span className="text-lime-400">Calories & Macros</span>
+            </h3>
+            <p className="text-slate-300 text-sm leading-relaxed">
+              Find your exact maintenance TDEE, fat loss deficit, and protein breakdown customized for Indian vegetarian or non-vegetarian diets in under 60 seconds.
+            </p>
+          </div>
+          <Link
+            to="/calorie-calculator"
+            className="shrink-0 inline-flex items-center gap-2 bg-gradient-to-r from-lime-400 to-lime-500 hover:from-lime-500 hover:to-lime-600 text-slate-950 px-8 py-4 rounded-xl font-extrabold text-sm shadow-lg shadow-lime-500/20 transition-all hover:scale-105"
+          >
+            <span>Launch Calorie Calculator</span>
+            <ArrowRight className="w-4 h-4" />
+          </Link>
+        </div>
       </section>
 
       {/* SECTION 10: COACHING PACKAGES & PRICING */}

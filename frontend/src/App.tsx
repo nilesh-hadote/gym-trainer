@@ -18,6 +18,7 @@ import { MentorshipPage } from './pages/public/MentorshipPage';
 import { PricingPage } from './pages/public/PricingPage';
 import { BlogPage, BlogPostPage } from './pages/public/BlogPage';
 import { SuccessStoriesPage } from './pages/public/SuccessStoriesPage';
+import { CalorieCalculatorPage } from './pages/public/CalorieCalculatorPage';
 import { ContactPage, BookConsultationPage } from './pages/public/ContactPage';
 import { PrivacyPolicyPage, TermsPage, RefundPolicyPage, DisclaimerPage } from './pages/public/LegalPages';
 import { LoginPage, RegisterPage } from './pages/public/LoginPage';
@@ -57,6 +58,7 @@ export const App: React.FC = () => {
               <Route path="/blog" element={<BlogPage />} />
               <Route path="/blog/:slug" element={<BlogPostPage />} />
               <Route path="/success-stories" element={<SuccessStoriesPage />} />
+              <Route path="/calorie-calculator" element={<CalorieCalculatorPage />} />
               <Route path="/contact" element={<ContactPage />} />
               <Route path="/book-consultation" element={<BookConsultationPage />} />
               <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />

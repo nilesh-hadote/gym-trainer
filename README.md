@@ -131,4 +131,5 @@ Gym website/
 ## 📝 License & Contact
 **Brand Owner**: Nilesh Hadote Fitness  
 **Email**: `nileshhadote763@gmail.com`  
-**Phone / WhatsApp**: `+91 9993322135`
+**Phone / WhatsApp**: `+91 9993322135`  
+**Location**: Indore, Madhya Pradesh, India

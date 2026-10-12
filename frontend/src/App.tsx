@@ -4,6 +4,7 @@ import { AuthProvider } from './context/AuthContext';
 import { AnnouncementBar } from './components/layout/AnnouncementBar';
 import { Navbar } from './components/layout/Navbar';
 import { Footer } from './components/layout/Footer';
+import { FloatingWhatsApp } from './components/layout/FloatingWhatsApp';
 
 // Public Pages
 import { HomePage } from './pages/public/HomePage';
@@ -81,6 +82,7 @@ export const App: React.FC = () => {
             </Routes>
           </main>
 
+          <FloatingWhatsApp />
           <Footer />
         </div>
       </Router>

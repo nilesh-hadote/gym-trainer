@@ -13,7 +13,7 @@ export const AboutPage: React.FC = () => {
             MEET YOUR HEAD FITNESS COACH & STRATEGIST
           </h1>
           <p className="text-slate-300 text-base leading-relaxed">
-            Nilesh Hadote is a passionate personal trainer and online fitness mentor dedicated to empowering individuals across India and globally to achieve sustainable body transformations.
+            Nilesh Hadote is a passionate personal trainer and fitness mentor based in Indore, Madhya Pradesh, dedicated to empowering individuals across India and globally to achieve sustainable body transformations.
           </p>
           <p className="text-slate-400 text-sm leading-relaxed">
             By integrating science-backed strength programming with realistic, enjoyable Indian dietary protocols, Nilesh cuts through fitness myths and provides clear, actionable guidance.

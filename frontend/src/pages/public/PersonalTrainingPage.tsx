@@ -6,10 +6,10 @@ export const PersonalTrainingPage: React.FC = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-16">
       <div className="text-center max-w-3xl mx-auto space-y-4">
-        <span className="text-lime-400 font-bold text-xs uppercase tracking-widest">IN-PERSON & GUIDED SESSIONS</span>
+        <span className="text-lime-400 font-bold text-xs uppercase tracking-widest">IN-PERSON IN INDORE &amp; ONLINE COACHING</span>
         <h1 className="text-4xl sm:text-5xl font-black text-white uppercase">Personal Training Program</h1>
         <p className="text-slate-300 text-base leading-relaxed">
-          Direct, high-touch personal training sessions focused on perfecting your form, pushing your physical boundaries safely, and getting maximum results.
+          Direct, high-touch personal training sessions in Indore, Madhya Pradesh and remote coaching worldwide, focused on perfecting your form, pushing your physical boundaries safely, and getting maximum results.
         </p>
       </div>
 
